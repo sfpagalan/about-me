@@ -5,8 +5,9 @@
     background: #958585;
 }
 .picture{
-    height: auto;
+    height: 500px;
     width: 400px;
+    border-radius: 50px;
 }
 .me{
     width: 1000px;
@@ -18,8 +19,10 @@
 }
 .message{
     width: 550px;
+    padding-left: 30px;
 }
 h2{
+    margin-top: 0;
     font-size: 90px;
     font-weight: 500;
     margin-bottom: 15px;
