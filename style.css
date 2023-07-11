@@ -9,7 +9,7 @@
     width: 400px;
 }
 .me{
-    width: 1100px;
+    width: 1000px;
     max-width: 80%;
     margin: 0 auto;
     display: flex;
@@ -24,21 +24,25 @@ h2{
     font-weight: 500;
     margin-bottom: 15px;
 }
-h4{
+h3{
     font-size: 20px;
     font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 p{
     font-size: 15px;
     line-height: 25px;
     letter-spacing: 1px;
 }
+.fun{
+    color: #272121;
+    text-decoration: underline #272121;
+}
 .border{
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .hire{
-    font-size: 15px;
+    font-size: 20px;
     background: #272121;
     color: #dbcaca;
     padding: 5px 20px;
