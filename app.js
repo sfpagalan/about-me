@@ -13,6 +13,18 @@ let name = prompt('What is you name?');
     alert('Hello ' + name); 
     console.log('Hi '+ name);
 
+let answer = 7;
+for (let attempt = 4; attempt > 0; attempt--) {
+    let guess = prompt('Guess a number between 0 and 10:');
+    if (guess < answer) {
+        alert("Too low! Guess higher.");
+    } else if (guess > answer) {
+        alert("Too high! Guess lower.");
+    } else if (guess === '7') {
+        alert('Congratulations '+ name + ' You guessed the number '+ guess + 'in '+ attempt + ' attempts.');
+        break;    
+    }
+}        
 
 let age = prompt('Are you 18 years old or older?')
 if (age === 'yes') {
