@@ -14,7 +14,7 @@ let name = prompt('What is you name?');
     console.log('Hi '+ name);
 
 let answer = 7;
-for (let attempt = 4; attempt > 0; attempt--) {
+for (let attempt = 0; attempt < 4; attempt++) {
     let guess = prompt('Guess a number between 0 and 10:');
     if (guess < answer) {
         alert("Too low! Guess higher.");
