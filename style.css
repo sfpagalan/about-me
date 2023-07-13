@@ -1,106 +1,118 @@
-body{
-    background: #958585;
-    /* height: 100px;
-    width: 100%; */
+body, h1, h2, h3, h4, p, ul, ol {
+    margin: 0;
+    padding: 0;
 }
-header{
-    /* width: 50%; */
-    height: 200px;
-    /* margin: 0 auto; */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3a7a7;
+    cursor: url('nezuko.png'), auto;
+}
+
+header {
+    background-color: #393030;
+    color: #fefafa;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
     text-align: center;
-    padding-top: 50px;  
 }
-h1{
-    margin-top: 0;
-    font-size: 90px;
-    font-weight: 500;
-    margin-bottom: 15px;
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
 }
-nav{
-    margin-bottom: 30px;
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
 }
-ul li{
-    margin-top: 0;
-    font-size: 20px;
-    font-weight: 300px;
-    margin-bottom: 100px;
-    display: inline-block;  
-    border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
-    background-color: rgb(44, 40, 40);
-    border: 1px rgb(44, 40, 40);   
-}
-li:hover{
-    background-color: #544e4e;
-}
-li a{
-    color: #d0bdbd;
+
+nav ul li a {
+    color: #dbcaca;
     text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
-.aboutMe{
-    height: 100%;
-    width: 100%;
-    padding: 80px 0;
+
+nav ul li a:hover {
+    background-color: #555;
 }
-.picture{
-    height: 500px;
-    width: 400px;
-    border-radius: 50px;
+
+nav ul li a.active {
+    font-weight: bold;
 }
-.me{
-    width: 1000px;
-    max-width: 80%;
+
+main {
+    padding: 20px;
+    /* max-width: 800px; */
     margin: 0 auto;
-    display: flex;
-    align-items: center;
 }
-.message{
-    width: 550px;
-    padding-left: 30px;
+
+.about-me {
+    margin-bottom: 0;
 }
-h2{
-    margin-top: 0;
-    font-size: 70px;
-    font-weight: 500;
-    margin-bottom: 15px;
+
+.about-me h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
 }
-h3{
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 20px;
+
+.about-me h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
 }
-p{
+
+.about-me p {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.about-me .fun {
+    font-weight: bold;
+}
+
+.border {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.border a.hire {
+    background-color: #333;
+}
+
+.hire {
     font-size: 15px;
-    line-height: 25px;
-    letter-spacing: 1px;
-}
-.fun{
-    color: #272121;
-    text-decoration: underline #272121;
-}
-.border{
-    margin-top: 20px;
-}
-.hire{
-    font-size: 20px;
     background: #272121;
     color: #dbcaca;
     padding: 5px 20px;
     border-radius: 5px;
     transition: 2s;
 }
-.hire:hover{
+.hire:hover {
     background: #7d6363;
     border: 1px solid #272121;
 }
-footer{
-    text-align: center;
-    list-style-position: inside;
-    margin-bottom: 50px;
-    margin-top: 50px;
+
+.topten {
+    padding: 20px;
 }
-h4{
-    font-size: 30px;
-    margin: 0 auto;
+.topten h4 {
+    color: #333;
+}
+
+ol li {
+    font-size: 13px;
+}
+
+footer {
+    background-color: #393030;
+    color: #dbcaca;
+    padding: 40px;
 }
