@@ -11,10 +11,10 @@ function scammer() {
     }       
 }
 
-function name() {
-    let name = prompt('What is you name?');
-        alert('Hello ' + name); 
-        console.log('Hi '+ name);    
+function user() {
+    let userName = prompt('What is you name?');
+        alert('Hello ' + userName); 
+        console.log('Hi '+ userName);    
 }
 
 function answer() {
@@ -26,7 +26,7 @@ function answer() {
         } else if (guess > answer) {
             alert("Too high! Guess lower.");
         } else if (guess === '7') {
-            alert('Congratulations '+ name + ' You guessed the number '+ guess + 'in '+ attempt + ' attempts.');
+            alert('Congratulations '+ userName + ' You guessed the number '+ guess + 'in '+ attempt + ' attempts.');
             break;    
         }
     }        
@@ -35,7 +35,7 @@ function answer() {
 function age() {
 let age = prompt('Are you 18 years old or older?')
 if (age === 'yes') {
-    alert('Since ' + name + ' is of age, you can proceed'); 
+    alert('Since ' + userName + ' is of age, you can proceed'); 
     console.log('No underage please!')
 } else if (age === 'no') {
     alert('You are not allowed to continue to this site');
@@ -46,12 +46,12 @@ if (age === 'yes') {
 function hire() {
     let hire = prompt('Are you a hiring manager or similar?');
     if (hire === 'yes') {
-        console.log(name + ' is a hiring manager or similar')    
+        console.log(userName + ' is a hiring manager or similar')    
     }
 
     let company = prompt('Which company are you from?');
-        alert('Hello '+ name + ' from '+ company + ', I am glad that you are not a scammer. You are more than welcome to check my page.');
-        console.log(name + ' from '+ company + ' is not a scammer.')    
+        alert('Hello '+ userName + ' from '+ company + ', I am glad that you are not a scammer. You are more than welcome to check my page.');
+        console.log(userName + ' from '+ company + ' is not a scammer.')    
 }
 
 
