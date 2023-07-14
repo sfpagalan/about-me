@@ -111,6 +111,42 @@ ol li {
     font-size: 13px;
 }
 
+ol {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 15px;    
+}
+
+.image-container {
+    width: 240px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.summary {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+span {
+    margin-left: 10px;
+}
+  
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.image-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
 footer {
     background-color: #393030;
     color: #dbcaca;
