@@ -6,7 +6,7 @@ body, h1, h2, h3, h4, p, ul, ol {
 body {
     font-family: Arial, sans-serif;
     background-color: #b3a7a7;
-    cursor: url('demon.png'), auto;
+    cursor: url('assets/demon.png'), auto;
 }
 
 header {
@@ -19,6 +19,7 @@ h1 {
     font-size: 36px;
     margin-bottom: 10px;
     text-align: center;
+    font-family: 'Chela One', cursive;
 }
 
 nav ul {
@@ -61,17 +62,20 @@ main {
     font-size: 24px;
     margin-bottom: 10px;
     color: #333;
+    font-family: 'Chela One', cursive;
 }
 
 .about-me h3 {
     font-size: 18px;
     margin-bottom: 10px;
     color: #555;
+    font-family: 'Yeseva One', cursive;
 }
 
 .about-me p {
     margin-bottom: 5px;
     line-height: 1.5;
+    font-family: 'Pangolin', cursive;
 }
 
 .about-me .fun {
@@ -88,7 +92,8 @@ main {
 }
 
 .hire {
-    font-size: 15px;
+    font-size: 20px;
+    font-family: 'Gochi Hand', cursive;
     background: #272121;
     color: #dbcaca;
     padding: 5px 20px;
@@ -100,11 +105,38 @@ main {
     border: 1px solid #272121;
 }
 
+.experience {
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.experience h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: 'Chela One', cursive;
+}
+
+.experience h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+    font-family: 'Yeseva One', cursive;
+}
+
+.experience p {
+    margin-bottom: 5px;
+    line-height: 1.5;
+    font-family: 'Pangolin', cursive;
+}
+
 .topten {
     padding: 20px;
 }
 .topten h4 {
     color: #333;
+    font-family: 'Chela One', cursive;
+    font-size: 40px;
 }
 
 ol li {
@@ -129,10 +161,15 @@ ol {
     width: 200px;
     height: 200px;
     overflow: hidden;
+    font-family: 'Pangolin', cursive;
+    font-size: 13px;
 }
 
 span {
-    margin-left: 10px;
+    margin-left: 15
+    px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 16px;
 }
   
 .image-container img {
